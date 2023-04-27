@@ -1,0 +1,143 @@
+body{ 
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    cursor: pointer;   
+     
+}
+
+.menu_sup{
+    display: flex;
+    justify-content: flex-end;
+}
+.Items {
+    display: flex;
+    justify-content: flex-end;    
+  }
+.gmail{
+    padding: 20px 10px;   
+}
+.imagenes{
+    padding: 20px 10px;
+}
+.Aplicaciones{  
+    padding: 16px 9px;
+}
+.Perfil{   
+    padding: 10px 12px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px ;   
+}
+  
+#input-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input.fuente{
+    padding: 12px 10px 12px 32px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 30px;
+    border: .5px solid #c9c9c9;
+    background: #fff url(./img/search-icon.png) 
+    no-repeat 7px center ;
+    background-size: 4%;
+    width: 500px;  
+   
+}
+   
+input:hover{
+    width: 180 px;
+    background-color: #fff;
+    border-color: rgba(255, 255, 255, 0.333);
+    box-shadow: 0 0 4px rgb(80, 80, 80);
+    
+    }
+    
+section{
+    display: flex;
+    justify-content: center;
+  
+}
+
+button{
+    background-color:#f8f9fa;
+    border-style: none;
+    margin: 2px;
+    padding: 10px 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover{
+      
+    box-shadow:0 0 2px #000000; 
+}
+footer{
+    margin-top:60px;
+    width:100%;
+    color: #70757a;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    width: 100;
+    font-size: 14px;
+}
+.pais{
+    background-color: #ebebeb;
+    margin:0 ;
+    padding: 0px 25px;
+
+
+}
+.footer-link{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ebebeb;
+    align-content: center;
+
+      
+}
+.f1{
+    display: flex;
+    align-items: center;
+    
+    
+}
+div{padding: 10px 10px;
+
+    }
+
+.f2{display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+hr{
+    height: 1px;
+    margin: 0;
+    padding:0;
+    background-color: #dfdfdf;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    background: none;
+    
+  }
+
+      a:visited {
+    color: #70757a;
+  }
+ 
